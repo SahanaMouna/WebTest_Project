@@ -98,6 +98,7 @@ public class WebTest {
   etest.info("Successfully placed an order");
 driver.findElement(By.xpath("//button[text()=\"OK\"]")).click();      
 		etest.info("TEST RUNNED SUCCESSFULLY");
+		System.out.println("Test executed successfully");
 	 }
 		@AfterMethod
 		public void end()
