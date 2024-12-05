@@ -99,6 +99,7 @@ public class WebTest {
 driver.findElement(By.xpath("//button[text()=\"OK\"]")).click();      
 		etest.info("TEST RUNNED SUCCESSFULLY");
 		System.out.println("Test executed successfully");
+		System.out.println("program executed successfully");
 	 }
 		@AfterMethod
 		public void end()
